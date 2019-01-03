@@ -1,0 +1,42 @@
+Arguments: 
+  /Users/taichi/.anyenv/envs/ndenv/versions/v10.14.1/bin/node /usr/local/Cellar/yarn/1.12.3/libexec/bin/yarn.js add --dev typscript
+
+PATH: 
+  /Users/taichi/.anyenv/envs/ndenv/versions/v10.14.1/bin:/Users/taichi/.anyenv/envs/ndenv/libexec:/Users/taichi/.anyenv/envs/ndenv/plugins/node-build/bin:/Users/taichi/Library/google-cloud-sdk/bin:/Users/taichi/.pyenv/shims:/Users/taichi/.pyenv/bin:/Users/taichi/.zplug/bin:/Users/taichi/.anyenv/envs/ndenv/shims:/Users/taichi/.anyenv/envs/ndenv/bin:/Users/taichi/.anyenv/bin:/Users/taichi/.goenv/shims:/Users/taichi/.goenv/bin:/Users/taichi/Library/Android/sdk/platform-tools:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin
+
+Yarn version: 
+  1.12.3
+
+Node version: 
+  10.14.1
+
+Platform: 
+  darwin x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/typscript: Not found
+      at Request.params.callback [as _callback] (/usr/local/Cellar/yarn/1.12.3/libexec/lib/cli.js:65894:18)
+      at Request.self.callback (/usr/local/Cellar/yarn/1.12.3/libexec/lib/cli.js:129018:22)
+      at Request.emit (events.js:182:13)
+      at Request.<anonymous> (/usr/local/Cellar/yarn/1.12.3/libexec/lib/cli.js:129990:10)
+      at Request.emit (events.js:182:13)
+      at IncomingMessage.<anonymous> (/usr/local/Cellar/yarn/1.12.3/libexec/lib/cli.js:129912:12)
+      at Object.onceWrapper (events.js:273:13)
+      at IncomingMessage.emit (events.js:187:15)
+      at endReadableNT (_stream_readable.js:1094:12)
+      at process._tickCallback (internal/process/next_tick.js:63:19)
+
+npm manifest: 
+  {
+    "name": "tesla-taichi",
+    "version": "1.0.0",
+    "main": "index.js",
+    "repository": "https://github.com/TaichiAkimoto/tesla-taichi.git",
+    "license": "MIT"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
